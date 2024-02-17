@@ -18,7 +18,7 @@ Welcome to the Spider-Man Movies Website! This project aims to provide informati
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/tematz/spider-man-multiverse.git`
+1. Clone the repository: `git clone https://github.com/your-username/spider-man-multiverse.git`
 2. Open the `index.html` file in your preferred web browser to start exploring the Spider-Man movies.
 
 ## Responsive Design
