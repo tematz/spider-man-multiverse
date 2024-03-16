@@ -42,15 +42,16 @@ body::before {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  perspective: 3000px;
+  perspective: 1000px;
 }
 
 .s-card {
   border: 0.5rem solid white;
   width: 100%;
-  height: 70vh;
+  height: 50vh;
   position: absolute;
   transition: filter .5s ease-in-out;
+  margin-top: 5rem;
 }
 
 .s-card:nth-child(1) {
@@ -183,4 +184,16 @@ body[id^="spider-man-"] .s-card:not(.s-card--hovered) {
   width: calc(100vw / 3 - 10%);
   transform-style: preserve-3d;
   transition: transform 0.4s ease-in;
+}
+
+@media screen and (max-width: 768px) {
+  .s-card__title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    transition: bottom 1s ease-in-out;
+  }
 }
